@@ -1,0 +1,236 @@
+.nav{
+  border-radius: 30px;
+     border:1px solid rgb(2, 58, 24);
+     box-shadow:0 6px 6px rgba(0,0,0,0.5);
+    background-color: #1f8b54;
+    overflow: hidden; /* Kiểm soát cách nội dung */
+    text-align: center;
+  }
+  .logo-small {
+    filter: drop-shadow(0 0 20px #130505);
+height: 45px; /* Điều chỉnh kích thước logo */
+margin-right:none; /* Tạo khoảng cách với các liên kết */
+float: left;/* Tạo bố cục cột và cho phép văn bản bao quanh hình ảnh*/
+}
+.nav li {
+    display: inline;/* Hiển thị các phần tử trên cùng một dòng*/
+}
+.nav li a {
+color: #ffffff;
+font-family: Arial;
+text-decoration: none;/* Loại bỏ các hiệu ứng trang trí văn bản gạch chân, gạch ngang hoặc gạch trên.*/
+padding: 20px;
+}
+.nav li a:hover {
+color: #1f8b54;
+background-color: #ffffff;
+}
+h1{
+font-size: 60px;
+}
+.trangchu{
+  background-image: url(https://i.pinimg.com/736x/eb/12/05/eb120512fd506f2664b0887e3c2d0033.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  line-height: 1.4;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+.bo{
+    font-size: 80px;
+    text-align: center;
+    color: #050404 rgba(0,0,0,0.5);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline olivedrab;
+    filter: drop-shadow(0 0 20px #0a0202);
+}
+  h1{
+    font-size: 80px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h4{
+    font-size: 20px;
+   color: rgb(252, 248, 248);
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+  }
+  p {
+    color: rgb(0, 0, 0);
+   font-size: 50px;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+ }
+ h5{
+  text-align: center;
+  color: #1f8b54;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ .image-gallery {
+  display: flex;
+  justify-content: space-around; /* Phân phối đều không gian giữa các ảnh */
+  flex-wrap: wrap; /* Cho phép ảnh xuống dòng khi không đủ chỗ */
+}
+
+.image-item {
+  text-align: center;/* Canh giữa */
+  margin-bottom: 10px; /* Khoảng cách giữa các hàng ảnh */
+}
+
+.image-item img {
+  max-width: 200px; /* Điều chỉnh kích thước ảnh */
+  height: auto;
+}
+
+.image-caption {
+  margin-top: 5px;/* Tạo một khoảng trống*/
+  color: #1f8b54;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.conten{
+    display: grid;/*Tạo bố cục lưới linh hoạt và phức tạp */
+    grid-template-columns: 1fr 1fr; /* Chia thành 2 cột bằng nhau */
+    gap: 20px; /* Khoảng cách giữa các cột */
+      }
+  .image-style {
+    text-align: center;
+  }
+  .image-style{
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .image-caption {
+    margin-top: 5px;
+    size: 44px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+.contai {
+    display: flex;
+    align-items: center;/* Căn chỉnh các phần tử con theo chiều dọc*/
+}
+.im {
+    margin-right: 20px;
+}
+.cont{
+    flex: 1;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    background-image: url(https://i.pinimg.com/474x/ed/20/d5/ed20d5721d560326ad553ea2c955b6e9.jpg);
+    background-color: #7fe8b2;
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    }
+   h1{
+    text-align: center;
+    color: #1f8b54;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+   }
+  .content{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    flex: 1;
+  }
+  .image{
+    margin-right: 20px;
+    filter: drop-shadow(0 0 20px #741818);
+  }
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+  .caulacbo{
+    background-image: url(https://i.pinimg.com/474x/bc/dc/9e/bcdc9e71700798e17023a6fea6d44769.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    size: 50px;
+  }
+  .fami{
+    font-size: 80px;
+    text-align: center;
+    color: #21a4b5 rgba(43, 96, 127, 0.5);
+    font-family: 'Times New Roman', Times, serif;
+  }
+.mylove{
+  background-image: url(https://i.pinimg.com/474x/e2/62/f3/e262f37b7d1d92d1c5df87799a953c25.jpg);
+  background-attachment: fixed;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    size: 50px;
+}
+.lov{
+  font-size: 80px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hoaithuong{
+  background-color: #bfeceb;
+}
+.mon{
+  text-align: center;
+  color: #298e8d;
+}
+.sothich{
+  background-image: url(https://i.pinimg.com/474x/09/72/23/09722355f6f2991c72c54bb6ec1cd6fd.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  line-height: 1.4;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  size: 50px;
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.xemthem{
+  text-align: center;
+  background-color: #67e2e0;
+  color: black;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.giaidap{
+  background-color: #b3eacd;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0%;
+  font-size: medium;
+}
